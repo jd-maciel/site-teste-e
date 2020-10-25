@@ -1,0 +1,1103 @@
+
+/*  CONFIGURAÇAO GERAL */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+body h4{
+    font-size: 15px;
+}
+
+body h3{
+    font-size: 25px;
+}
+
+body h1{
+    font-size: 25px;
+}
+
+a:link{
+    color:   #767475;  
+    text-decoration: none;  
+    text-decoration: none; 
+}
+
+a:visited{
+    color:  #767475; 
+    text-decoration: none; 
+}
+
+a:active{
+    color:   #767475;  
+    text-decoration: none; 
+}
+
+a:hover{
+    color:  #767475;  
+    text-decoration: none; 
+}
+
+.site-total{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.centralizar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.barra-titulo1{
+    position: relative;
+    float: left;
+    width: 11%;
+    height: 5px;
+    background-color: #97BEED;    
+    margin-left: 45%;
+    margin-bottom: 2%;
+
+}
+
+.barra-titulo2{
+    position: relative;
+    float: right;
+    width: 15%;
+    height: 5px;
+    background-color: #97BEED;    
+    margin-right: 10%;
+    margin-top: -11px;
+    z-index: 5;
+}
+
+.barra-titulo3{
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 5px;
+    background-color: #97BEED;  
+    z-index: 5;
+
+}
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::: MENU*/
+.header-menu{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(170, 43, 43);
+    margin-left: 10%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-expand-lg  {
+    padding-left: 10%;
+    padding-right: 10%;   
+}
+
+.menu{
+    position: fixed;
+    float: left;
+    width: 100%;
+    height: 60px;
+    background-color: #F8F9FA;
+    z-index: 100;
+}
+
+.container-fluid img{
+   background-size: cover 10%;
+}
+
+.btn-socio{
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 45px;
+    background-color: #FDC018;
+
+    border-radius: 143px;    
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1%;   
+}
+
+.btn-socio b{
+    color: #C50907;
+}
+
+.btn-face{
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 40px;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    padding: 0.5%;    
+    font-size: 20px;    
+}
+
+.btn-insta{
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 40px;
+    
+    margin-top: 0.3%;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    padding: 0.5%;    
+    font-size: 20px;
+}
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::: BANNER*/
+
+.banner-rotativo{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 500px;
+    background-color: #C50907; 
+    
+}
+
+.banner-rotativo-celular{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 500px;  
+    
+    display: none;    
+}
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::: MAIN*/
+
+.bloco-inicial{
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 100px;
+    /*background-color: #FDC018;*/
+
+    margin-left: 10%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    
+}
+
+.bloco-inicial-header{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 80px;
+    /*background-color: rgb(47, 0, 255);*/
+    
+}
+
+.bloco-inicial-header h1{
+    font-size: 30px;
+}
+
+.bloco-inicial-txt{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 20px;
+    /*background-color: rgb(64, 51, 119);*/
+    
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::: CARDS*/
+
+.cards{
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 300px;
+    /*background-color: chocolate;*/
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.cards i {
+    font-size: 35px;
+    padding-top: 5%;
+}
+
+.card-body h3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-body p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/*::::::::::::::::::::::::::::::::::::::: COMO FUNCIONA*/
+
+.bk-como-funciona{
+    position: absolute;
+    top: 1170px;
+    left: 0px;
+    width: 100%;
+    height:  380px;
+    background-color: rgba(184, 185, 185, 0.24);
+    z-index: 5;
+}
+
+.como-funciona{
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 520px;
+    /*background-color: cornflowerblue;*/
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.como-funciona-img{
+    position: relative;
+    float: left;
+    width: 45%;
+    height: 520px;
+    /*background-color: crimson;*/
+    z-index: 50;
+}
+
+.como-funciona-txt{
+    position: relative;
+    float: left;
+    width: 55%;
+    height: 520px;
+    /*background-color: rgb(82, 34, 43);*/
+    z-index: 50;
+    
+}
+
+.como-funciona-txt h1{
+    font-size: 30px;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
+
+.como-funciona-txt h3{
+    
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
+.como-funciona-txt p{
+    
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
+
+.margem-titulo{
+    margin-top: 70px;
+}
+.margem-subtitulo{
+    margin-top: 50px;
+}
+
+/*::::::::::::::::::::::::::::::::::::::: SOBRE NOS*/
+
+.sobre-nos{
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 200px;
+    /*background-color: darkgoldenrod;*/
+    margin-left: 10%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.sobre-nos-txt{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 200px;
+    /*background-color: rgb(58, 51, 32);*/
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.sobre-nos-img{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 200px;
+    /*background-color: rgb(35, 135, 153);*/
+    padding: 3% 1% 3% 5%;
+}
+
+.sobre-nos-slogan-celular{
+    display: none;
+}
+
+
+/*::::::::::::::::::::::::::::::::     BANNER ROTATIVO PEQUENO*/
+
+.bloco-main-banner{
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 300px;
+    /*background-color: darkgreen;*/
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.bloco-main-banner-header{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 80px;
+    /*background-color: darkmagenta;*/
+}
+
+.bloco-main-banner-header p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 30px;
+}
+
+.bloco-main-banner-img{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 220px;
+    /*background-color: rgb(7, 171, 247);*/
+}
+
+.bloco-main-banner-img-celular{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 220px;
+    /*background-color: rgb(7, 171, 247);*/
+
+    display: none;
+}
+
+
+
+/*:::::::::: carousel */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*::::::::::::::::::::::::::::::::     FAQ DE PERGUNTAS*/
+
+.bloco-faq{
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 50px;
+    /*background-color: darkolivegreen;*/
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.btn-faq{
+    position: relative;
+    float: left;    
+    width: 50%;
+    height: 40px;
+    margin-left: 25%;
+
+    background: #3850BE;
+    border-radius: 289px;
+}
+
+.btn-faq b{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-top: 0%;
+   color: rgb(255, 255, 255);
+   font-size: 20px;
+}
+
+.perguntas-faq{
+    position: relative;
+    float: left;
+    width: 80%;
+    height: auto;
+    /*background-color: rgb(30, 116, 122);*/
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+/* colapse */
+.faq1{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: auto;
+    /*background-color: khaki;*/
+    padding: 3% 7% 3% 7%;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(201, 201, 201, 0.83);
+    border-bottom: 0px ;
+    margin-top: 2%;
+    padding-left: 10%;
+
+    display: flex;
+    text-align: left;
+    align-items: left;  
+}
+
+.card-header:hover{
+    background-color: #98BEED;
+}
+
+.collapsed h4{
+    color: #000000;
+    display: flex;
+    text-align: left;
+    align-items: left; 
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px ;
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+/*::::::::::::::::::::::::::::::::     FALE CONOSCO*/
+
+.bloco-faq p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 1%;
+
+    font-size: 20px;
+}
+
+
+.fale-conosco-contato{
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 300px;
+    /*background-color: rgb(10, 43, 10);*/
+    
+}
+
+.fale-conosco-contato h3{   
+    text-align: center;
+    align-items: center; 
+    
+    margin-top: 5%;
+    
+}
+
+.fale-conosco-contato p{   
+    text-align: center;
+    align-items: center; 
+    
+    margin-top: 5%;
+    
+}
+
+
+/*    formulario*/
+.fale-conosco{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 300px;
+    background-color: #FDC018;
+    margin-bottom: 2%;
+    
+}
+
+.fale-conosco-form{
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 300px;
+    /*background-color: forestgreen;*/
+    margin-left: 10%;
+    padding-top: 2%;
+}
+
+.form-control{
+    border-radius: 10px;
+}
+
+.form-group{
+    width: 80%;  
+    padding-left: 10%;    
+}
+
+.form-group1{
+    width: 30%;
+    float: left;
+    padding-left: 5%;  
+}
+
+.form-group3{
+    width: 50%;    
+    padding-left: 10%;  
+}
+
+.btn btn-primary{
+    padding: 10%;
+}
+
+.fale-conosco-form button{
+    width: 20%;
+    margin-left: 10%;
+    background-color: #719ED7;
+}
+
+
+
+
+
+/*::::::::::::::::::::::::::::::::     RODAPE*/
+
+.rodape{
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 150px;
+    /*background-color: fuchsia;*/
+    margin-left: 10%;
+    
+}
+
+.logo-rodape{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 50px;
+    /*background-color: rgb(0, 68, 255);*/
+}
+
+.txt-rodape{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100px;
+    /*background-color: rgb(32, 46, 85);*/
+} 
+
+.txt-rodape p{    
+    justify-content: center;
+    text-align: center;
+}
+
+
+/*::::::::::::::::::::::::::::::::     Whats fixed*/
+.whats-fixed{
+    position: fixed;
+    top: 90%;
+    left: 93%;
+    width: 40px;
+    height: 40px;
+    background-color:#4FC348;
+    z-index: 100;
+    border-radius: 66px;
+}
+
+.whats-fixed i{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 360px) {
+
+    body h4{
+        font-size: 12px;
+    }
+    
+    body h3{
+        font-size: 25px;
+    }
+    
+    body h1{
+        font-size: 22px;
+    }   
+
+    .barra-titulo1{
+       display: none;
+    }
+
+    .barra-titulo2{
+       display: none;
+    }
+
+    .barra-titulo3{
+        display: none;
+    }
+
+
+    /*:::::::::::::::::::::::::::::::::: @media MENU*/
+    .header-menu{
+        position: relative;
+        float: left;
+        width: 100%;
+        height: auto;
+        background-color: rgb(68, 170, 43);
+        margin-left: 10%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    menu{
+        position: fixed;
+        height: auto;
+        background-color: #1c6785;
+    }
+    .menu{
+      
+        float: left;
+        width: 100%;
+        height: 60px;
+       
+    }
+
+    .container-fluid img{
+        display: none;
+    }
+
+    .btn-socio{
+        display: none;
+    }
+
+    .btn-face{
+        display: none;
+    }
+
+    .btn-insta{
+        display: none;
+    }
+    
+    /*:::::::::::::::::::::::::::::::::: @media BANNER*/
+    .banner-rotativo{
+        display: none;  
+    }
+    
+    .banner-rotativo-celular{
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 370px;
+        /*background-color: #FDC018;  */
+        margin-top: 60px;
+        
+        display: block;    
+    }
+    
+
+    /*:::::::::::::::::::::::::::::::::: @media MAIN*/
+
+    .bloco-inicial{       
+        width: 100%;
+        height: 100px;
+        /*background-color: #FDC018;   */ 
+        margin-left: 0px;
+        margin-bottom: 2%;
+        margin-top: 5%;
+    }
+
+    .bloco-inicial-txt{
+        margin-top: 4%;
+    }
+
+    .bloco-inicial-header h1{
+        font-size: 23px;
+    }
+    
+
+    .cards{
+        position: relative;
+        float: left;
+        width: 80%;
+        height: 900px;
+        /*background-color: chocolate;*/
+        margin-left: 10%;
+        margin-bottom: 2%;
+        margin-top: 15%;
+    }
+
+    
+    /*::::::::::::::::::::::::::: @media COMO FUNCIONA*/
+
+    .bk-como-funciona{
+        display: none;
+    }
+
+    .como-funciona-img{
+        display: none;
+    }
+
+    .como-funciona-txt{
+        width: 100%; 
+        height: 650px;
+        margin-bottom: 2%;
+    }   
+
+    .como-funciona-txt h1{
+        font-size: 30px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .como-funciona-txt h3{
+        
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .como-funciona-txt p{
+        
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+     /*::::::::::::::::::::::::::: @media SOBRE NOS*/
+     .sobre-nos{   
+       
+        width: 100%;
+        height: 450px;
+        /*background-color: rgb(170, 170, 169);*/
+        margin-left: 0%;
+        margin-bottom: 2%;
+        margin-top: 40%;
+    }
+    
+    .sobre-nos-txt{
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 280px;
+        background-color:#F7F7F7;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .sobre-nos-txt p{
+        padding-top: 2%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    .sobre-nos-txt h2{
+        padding-top: 4%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .sobre-nos-img{
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 150px;
+        /*background-color: rgb(35, 135, 153);*/
+        padding: 6% 1% 0% 1%;
+    }
+
+    .sobre-nos-img img{
+       
+        width: 100%;
+        height: 120px;
+        padding-left: 0px;
+        padding-right: 0px;;
+        
+    }
+
+    /*:::::::::::::::::::::::::@MEDIA    banner ROTATIVO PEQUENO*/
+    .bloco-main-banner{        
+        width: 100%;
+        height: 330px;
+        margin-left: 0%;
+        margin-top: 2%;
+        margin-bottom: 2%;  
+        /*background-color: #4FC348;  */  
+    }
+   
+    .bloco-main-banner-img{
+        display: none;
+    }
+    
+    .bloco-main-banner-img-celular{
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 240px;
+        /*background-color: rgb(7, 171, 247); */ 
+        display: block;   
+        padding-left: 1%;
+        padding-right: 1%; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    /*:::::::::::::::::::::::::@MEDIA     FAQ DE PERGUNTAS*/
+    
+        
+    .bloco-faq{    
+        width: 100%; 
+        height: auto;    
+        margin-left: 0%;
+        margin-top: 3%;
+    }   
+
+    .btn-faq{       
+        width: 90%;   
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+
+    .btn-faq p{   
+        margin-top: 2%;   
+        font-size: 18px;
+    }
+
+    .perguntas-faq{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+
+    .faq1{
+        position: relative;
+        float: left;
+        width: 100%;
+        height: auto;
+        /*background-color: khaki;*/
+        padding: 0% 7% 0% 7%;
+    }
+
+    .card-header {
+        padding: .75rem 1.25rem;
+        margin-bottom: 0;
+        background-color: rgba(201, 201, 201, 0.83);
+        border-bottom: 0px ;
+        margin-top: 2%;
+        padding-left: 10%;
+    
+        display: flex;
+        text-align: left;
+        align-items: left;  
+    }
+    
+    .card-header:hover{
+        background-color: #98BEED;
+    }
+    
+    .collapsed h3{
+        color: #000000;
+        
+        text-align: left;
+        align-items: left; 
+
+        padding-left: 0%;
+    }
+
+    .card-body p{
+        text-align: left;
+        align-items: left; 
+        display: flex;
+    }
+
+
+
+    /*::::::::::::::::::::::::::::::::@MEDIA   FALE CONOSCO*/
+    .fale-conosco{
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 610px;
+        background-color: #FDC018;
+        margin-bottom: 2%;
+    }
+    
+
+    .fale-conosco-form{
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        /*background-color: forestgreen;*/
+        margin-left: 0%;
+        padding-top: 15%;
+        padding-left: 4%;
+    }
+    
+    .fale-conosco-contato{
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 300px;
+        /*background-color: rgb(10, 43, 10);*/
+        
+    }
+
+    .fale-conosco-form button{
+        width: 70%;
+
+        padding-left: 0%;
+    }
+
+
+
+    /*::::::::::::::::::::::::::::::::@MEDIA     RODAPE*/
+
+        
+    .rodape{     
+        width: 100%;
+        height: 150px;        
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }   
+
+    .logo-rodape img{
+        width: 50%;
+        margin-top: 2%;
+    }
+    
+    .txt-rodape p{
+        margin-top: 5%;        
+    }
+
+
+    /*::::::::::::::::::::::::::::::::     Whats fixed*/
+    .whats-fixed{
+        display: none;
+    }
+
+
+
+}
