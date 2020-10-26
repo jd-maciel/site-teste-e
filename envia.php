@@ -1,30 +1,30 @@
+
 <?php
-    $destinatario = "jd_maciel@hotmail.com.br";
+//Variáveis
+ 
+$nome = $_POST['nome'];
+$telefone = $_POST['telefone'];
+$email = $_POST['email'];
+$mensagem = $_POST['mensagem'];
 
-    $nome = $_REQUEST['nome'];
-    $telefone = $_REQUEST['telefone'];
-    $email = $_REQUEST['email'];
-    $mensagem = $_REQUEST['mensagem'];
-    
-
-      // monta o e-mail na variavel $body
-
-    $body = "===================================" . "\n";
-    $body = $body . "FALE CONOSCO - TESTE COMPROVATIVO" . "\n";
-    $body = $body . "===================================" . "\n\n";
-    $body = $body . "Nome: " . $nome . "\n";
-    $body = $body . "Email: " . $email . "\n";
-    $body = $body . "Mensagem: " . $mensagem . "\n\n";
-    $body = $body . "===================================" . "\n";
-
-    // envia o email
-    mail($destinatario, $assunto , $body, "From: $email\r\n");
-
-    // redireciona para a página de obrigado
-    header("location:obrigado.htm");
-
- ?>
-
-
-
-
+//enviar  
+  
+  $emailenviar = "jd_maciel@hotmail.com";
+  $destino = $emailenviar;
+  $assunto = "Contato pelo Site";
+ 
+  
+  $headers  = 'MIME-Version: 1.0' . "\r\n";
+      $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+      $headers .= 'From: ' .$nome.' <'.$email.'>';
+  //$headers .= "Bcc: $EmailPadrao\r\n";
+   
+  $enviaremail = mail($destino, $assunto, $mensagem, $headers);
+  if($enviaremail){
+    $mgm = "E-MAIL ENVIADO COM SUCESSO! <br> O link será enviado para o e-mail fornecido no formulário";
+    echo " <meta http-equiv='refresh' content='10;URL=contato.php'>";
+  } else {
+    $mgm = "ERRO AO ENVIAR E-MAIL!";
+    echo $mgm;
+  }
+?>
